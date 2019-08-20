@@ -1,0 +1,294 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>Ben Jason Portfolio</title>
+  <style>
+
+
+
+nav ul a.active {
+    font-weight: 500;
+    border-bottom: 2px solid black;
+  }
+
+
+  </style>
+</head>
+
+
+<body>
+  <div class="navbar navbar-fixed scrollspy" id="#home">
+    <nav class="nav-wrapper red darken-4">
+      <div class="container">
+        <a href="#" class="brand-logo right">Ben Jason </a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="left hide-on-med-and-down">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+  <ul class="sidenav" id="mobile-links">
+    <li><a href="#home" class="sidenav-close bold waves-effect waves-blue ">Home</a></li>
+    <li><a href="#about" class="sidenav-close bold waves-effect  ">About</a></li>
+    <li><a href="#projects" class="sidenav-close bold waves-effect  ">Projects</a></li>
+    <li><a href="#contact" class="sidenav-close bold ">Contact</a></li>
+  </ul>
+
+
+
+
+
+
+
+
+<!--Image-->
+<section class="section container scrollspy" id="home">
+
+  <div >
+    <div>
+      <h3 class="brown-text light"><div class="logo center"><img alt="" src="img/ben-logo.svg" width="300" height="100" class="responsive-img"></h3>
+      <!-- <div class="row text-center">
+
+        <div ><img alt="" src="img/github.png" class="responsive-img">Github</div>
+        <div ><img alt="" src="img/linkedin.png" class="responsive-img">linkedin</div>
+        <div ><img alt="" src="img/email.png">Email</div>
+      </div> -->
+    </div>
+</div>
+<!-- <div style="max-height:400px"; >
+    <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/animals/6"></a>
+</div> -->
+
+</section>
+<div class="divider"></div>
+<section class="section container scrollspy" id="about">
+  <h3 class="center-align">About</h3>
+
+  <p>I'm a User Interface Designer and Developer with a background in Graphic Design, User Experience Design, and Animation. Growing up playing video games, 
+    watching 3D animated movies, and surfing the web, I have always been amazed and excited with digital technology. All this experience influenced me to pursue my dream in 
+    something related to web development or animation. 
+    </br>My long adventure took me from a creative with some coding experience to someone who welcomes challenges and finding bugs in an application. 
+    As a graphic designer I'm obsessed with the look and details, as an animator I learned how to use motion and interaction to design a better application, 
+    as a User Experience Designer I learned to count in my users, and as a developer, I found out about endless possibilities. I find great joy in making things that are unique and impactful.</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<!--project cards-->
+<div class="divider"></div>
+<section class="section container scrollspy" id="projects">
+  <h3 class="center-align">Projects</h3>
+  <div class="container" id="cards">
+    <div class="row">
+      <div class="col s12 m12 l12">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/chatStation-webCard.svg">
+            <!-- <span class="card-title red-text text-darken-4">Chat Station</span> -->
+          </div>
+          <div class="card-content">
+            <p>Chat Station is chatting app where each user can create a chat room and chat with other users.
+               Chat Station is Built with React.js and Google Firebase. Also, users can log in and log out with their Google account.
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="https://chat-station.netlify.com" class="red-text text-darken-4">Demo</a>
+            <a href="https://github.com/ben7ny/chat-station" class="red-text text-darken-4">Github</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col s12 m12 l12">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/Pumadodo-webCard.svg">
+            <!-- <span class="card-title red-text text-darken-4">Pumadoro</span> -->
+          </div>
+          <div class="card-content">
+            <p>Pumadoro is a task management app based on The Pomodoro Technique.
+              each user has 25 minutes to complete a task or reset the time over.
+              After each task, the user has an option to take a 5 minutes break.
+              The break time would increase to 30 minutes after every four completed tasks.
+              Pumadoro is powered by React.js and Google Firebase.
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="https://pumadoro.netlify.com" class="red-text text-darken-4">Demo</a>
+            <a href="https://github.com/ben7ny/Pumadoro" class="red-text text-darken-4">Github</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col s12 m12 l12">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/taskDevil-webCard.svg">
+            <!-- <span class="card-title red-text text-darken-4">Task Devil</span> -->
+          </div>
+          <div class="card-content">
+            <p>Task Devil app is a To-do list that allows users to create and delete tasks.
+              The user can tick-off tasks and visit the completed tasks in the Task History tab.
+              The user has the option to tick-off completed tasks in the Task History to make them active again.
+              Task Devil deletes uncompleted task after seven days. This application is made with React.js and Google firebase.
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="https://task-devil.netlify.com" class="red-text text-darken-4">Demo</a>
+            <a href="https://github.com/ben7ny/Task-Devil" class="red-text text-darken-4">Github</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="col s12 m12 l12">
+        <div class="card">
+          <!-- <span class="card-title red-text text-darken-4">Artmates</span> -->
+          <div class="video-container">
+            <iframe width="853" height="480" src="http://benjason.us/Artmates/index.html" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="card-content">
+            <p>Artmates provides a live chat between a museumgoer and a tour guide.
+              Unlike the other apps in the market that feed museum's visitors with monotonous facts,
+              Artmates' certified tour guides help people learn art by telling them amazing stories.
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="https://projects.invisionapp.com/share/KZ73HU854#/screens" class="red-text text-darken-4">Demo</a>
+            <a href="https://www.youtube.com/watch?time_continue=15&v=o2jY9EMWXkQ" class="red-text text-darken-4">Youtube</a>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+
+<!--Forms-->
+<div class="divider"></div>
+
+
+
+<!-- contact form -->
+ <section class="section container scrollspy" id="contact">
+   <h3 class="center-align">Contact</h3>
+   <div class="row">
+     <div class="col s12 l12">
+       <h5 class="red-text text-darken-4">Get in Touch</h5>
+       <p>Please let me know if you have any question or you want to know more about me.</p>
+       <p>I will email you back as soon as possible.</p>
+     </div>
+     <div >
+
+
+       <!-- <form method="POST" action="https://formspree.io/benjason777@gmail.com">
+         <div class="input-field col s12 m12 l6 validate">
+          <input type="text" name="name" placeholder="Your name">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s12 m12 l6 validate">
+          <input type="text" name="Last name" placeholder="Your name">
+          <label for="last_name">Last Name</label>
+        </div>
+
+         <div class="input-field col s12 l12 validate">
+           <i class="material-icons prefix">email</i>
+           <input type="email" name="email" placeholder="Your email">
+           <label for="email">Your Email</label>
+         </div>
+         <div class="input-field col s12 l12 validate">
+           <i class="material-icons prefix">message</i>
+           <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
+           <label for="message">Your Message</label>
+         </div>
+
+
+         <div class="input-field center">
+          <button class="btn" type="submit">Send</button>
+         </div>
+       </form> -->
+
+
+       <form method="POST" action="https://formspree.io/benjason777@gmail.com">
+         <input class="input-field validate" type="text" name="name" placeholder="Your name">
+         <input type="email" name="email" placeholder="Your email">
+         <textarea class="materialize-textarea" cols="20" rows="20" name="message" placeholder="Your message"></textarea>
+         <button class="btn red darken-4 waves-effect" type="submit">Send</button>
+      </form>
+
+
+
+
+<!-- footer -->
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col l4 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://github.com/ben7ny">Github</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/benjason7ny">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </section>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.tooltipped').tooltip();
+     // $('.scrollspy').scrollSpy(offset: offsetHeight);
+     $('.scrollspy').scrollSpy();
+    });
+
+    $('#textarea1').val('New Text');
+  M.textareaAutoResize($('#textarea1'));
+
+
+
+  </script>
+
+</body>
+</html>
